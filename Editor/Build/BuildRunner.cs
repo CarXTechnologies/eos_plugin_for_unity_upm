@@ -36,7 +36,7 @@ namespace PlayEveryWare.EpicOnlineServices.Editor.Build
         /// PlatformSpecificBuilder implementations should have their callback
         /// set to 0 so that they can register themselves where appropriate.
         /// </summary>
-        public int callbackOrder => 10_000;
+        public int callbackOrder => 1;
 
         /// <summary>
         /// Private value for public property (separated for easier debugging)
