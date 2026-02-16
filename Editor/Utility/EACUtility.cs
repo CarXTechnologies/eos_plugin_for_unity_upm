@@ -104,7 +104,7 @@ namespace PlayEveryWare.EpicOnlineServices.Editor.Build
         {
             string toolPath = Path.Combine(GetPathToEOSBin(), "EAC");
 #if UNITY_EDITOR_WIN
-            toolPath = Path.Combine(toolPath, "Windows", "anticheat_integritytool64.exe");
+            toolPath = Path.Combine(toolPath, "Windows", "anticheat_integritytool.exe");
 #elif UNITY_EDITOR_OSX
         toolPath = Path.Combine(toolPath, "Mac", "anticheat_integritytool");
 #elif UNITY_EDITOR_LINUX
